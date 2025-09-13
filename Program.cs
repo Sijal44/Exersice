@@ -10,7 +10,8 @@ namespace Exersice
             family.Name = "Ericson";
             family.Year = 2020;
 
-            Console.WriteLine($"Hello {family.Name} ,you are born in :{family.Year}");
+            Console.WriteLine("Hello!");
+            Console.WriteLine($"Mr {family.Name} ,you are born in :{family.Year}");
 
         }
     }
