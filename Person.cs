@@ -2,7 +2,7 @@
 
 namespace Exersice
 {
-    internal class Person
+    public class Person
 
     {
         public string Name;
