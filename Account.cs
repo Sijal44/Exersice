@@ -3,7 +3,7 @@
 namespace Exersice
 {
     //huvudclass Account
-    internal class Account
+    public class Account
     {
          // En abstrakt klass (kan inte skapas som objekt)
             public abstract class BankAccount
@@ -19,6 +19,13 @@ namespace Exersice
             public override void Deposit()
             {
                 Console.WriteLine("Deposit to Credit Account");
+            }
+            public class SavingsAccount : BankAccount
+            {
+                public override void Deposit()
+                {
+                    Console.WriteLine("Deposit to Savings Account");
+                }
             }
         }
     }
