@@ -1,4 +1,7 @@
-﻿
+﻿using Exersice;
+using System;
+using static Exersice.Account;
+using static Exersice.Account.CreditAccount;
 
 namespace Exersice
 {
@@ -6,6 +9,13 @@ namespace Exersice
     {
         static void Main(string[] args)
         {
+
+            CreditAccount credit = new CreditAccount();
+            credit.Deposit();
+
+            SavingsAccount savings = new SavingsAccount();
+            savings.Deposit();
+
             Person family = new Person();
             family.Name = "Ericson";
             family.Year = 2020; 
